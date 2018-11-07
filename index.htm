@@ -2,12 +2,17 @@
 <html lang="en">
 <head>
 	<title>FotoBook</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="css/fullpage.css">
 	<link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 	<div id="logo">
+
+		<img src="img/logo.png" width="50px" height="50px" alt="hi">
+
 		<img src="img/logo.png" width="50px" height="50px" alt="logo" title="logo">
+
 			<span style="font-size:30px; color: white;">otoBook</span>
 	</div>
 	<div id="main" class="container">
@@ -15,10 +20,10 @@
 		<section class="section" id="section-main">
 			<div class="container-flex">
 				<div class="col">
-				<p class="parag">
-					<h1>select any photo , post it, or send it to friends.</h1>
+					<h1 class="H1">Select any photo , post it, or send it to friends.</h1>
+					<p lang="fr" class="parag">
 					also write a description of the photo that was shared.<br>
-					
+
 					Our website contains three parts in the first part<br> the photo change randomly every 5 seconds. <br>
 					The second part the photo in this part change <br> through the user click button change then,<br> the user choose
 					photo and the click to button next ,<br>to take the photo to the next part. <br>
@@ -29,7 +34,11 @@
 				</div>
 				<div class="col">
 					<div class="fb-post">
+
+						<img id="img-facebook-photo" alt="hi"/>
+
 						<img id="img-facebook-photo" alt="random image" title="ramdom image"/>
+
 						<div class="counters">
 							<span id="number-of-likes">0</span> Likes
 							<span id="number-of-comments">0</span> Comments
@@ -45,7 +54,11 @@
 		<section class="section" id="section-select-photo">
 			<div class="container-flex">
 				<div >
+
+					<img id="img-selection" alt="hi"/>
+
 					<img id="img-selection" alt="rando image" title="rando image"/>
+
 				</div>
 				<div class="text-center">
 					<div>
@@ -64,12 +77,20 @@
 		<section class="section" id="section-select-gif">
 			<div class="container-flex">
 				<div >
+
+					<img id="img-selection-gif" alt="hi"/>
+				</div>
+				<div class="text-center">
+					<div>
+					<label for="txt-photo-gif">search</label>	<input type="text" id="txt-photo-gif" placeholder="Enter query here" value="Cat"  name="gif"/>
+
 					<img id="img-selection-gif" alt="random gif" title="random gif"/>
 				</div>
 				<div class="text-center">
 					<div>
 						<label for="txt-photo-gif"></label>
 						<input type="text" name="txt-photo-gif" id="txt-photo-gif" placeholder="Enter query here" value="Cat" />
+
 					</div>
 					<div>
 						<button id="btn-change-photo-gif">Change photo</button>
@@ -85,7 +106,7 @@
 		<!-- End Add text Section -->
 		<!-- Start Add text Section -->
 		<section class="section" id="add-text" >
-			<p class="thank-you"> Thank You </p>
+			<p lang="fr" class="thank-you"> Thank You </p>
 		</section>
 		<!-- End Add text Section -->
 		<!-- Start Photo uploaded Section -->
