@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 body{
   margin: 0px;
   padding: 0px;
@@ -7,9 +10,19 @@ section{
   height: 100vh;
 }
 #logo{
-  position: absolute;
+  display: flex;
+  position: fixed;
   top: 20px;
   left: 20px;
+  z-index: 30;
+  background-color: gray;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+  align-items: center;
+}
+.text-center{
+  text-align: center;
 }
 .container-flex{
   display: flex;
@@ -18,19 +31,12 @@ section{
   align-items: center;
   height: 100%;
 }
-#main>section:nth-child(odd){
-  background-color: blue;
-}
-#main>section:nth-child(even){
-  background-color: #DFE2EF;
-}
 #section-select-photo{
   text-align: left;
   display: flex;
   align-items: left;
   justify-content: left;
   padding-top: 100px;
-  padding-left: 20px;
 }
 .counters{
   background: #ccc;
@@ -49,9 +55,6 @@ section{
   width:500px;
   border-radius: 10px ;
 }
-#next-btn{
-  border-radius: 10px ;
-}
 .thank-you{
 font-size: 200px;
 margin: 0;
@@ -61,4 +64,16 @@ font-style: italic;
 
 text-align: center;
 padding-top:200px;
+}
+
+button {
+    margin: 6px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
