@@ -1,6 +1,6 @@
 # photoBook
 
-# About
+# About:
  The team created this website to generate random images, and allows the  users to choose any image then sharing it in their profiles at facebook account.
   
   # Description:
