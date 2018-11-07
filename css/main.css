@@ -9,13 +9,16 @@ section{
   width: 100%;
   height: 100vh;
 }
+.H1{
+
+  color: white;
+}
 #logo{
   display: flex;
   position: fixed;
   top: 20px;
   left: 20px;
   z-index: 30;
-  background-color: gray;
   justify-content: center;
   text-align: center;
   flex-direction: row;
@@ -36,7 +39,7 @@ section{
   display: flex;
   align-items: left;
   justify-content: left;
-  padding-top: 100px;
+
 }
 .counters{
   background: #ccc;
@@ -68,7 +71,7 @@ padding-top:200px;
 
 button {
     margin: 6px;
-    background-color: #4CAF50; /* Green */
+    background-color: #0865C3; /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -76,4 +79,10 @@ button {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .container-flex{
+    flex-direction: column;
+
 }

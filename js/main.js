@@ -15,9 +15,9 @@ function sendMessage(img){
         },
         message:{
             attachment:{
-            type:"image", 
+            type:"image",
             payload:{
-              url:"https://picsum.photos/400/400/?image=358", 
+              url:"https://picsum.photos/400/400/?image=358",
               is_reusable:true
             }
           }
@@ -103,5 +103,5 @@ setInterval(function(){
 
 
 var myFullpage = new fullpage('#main', {
-  sectionsColor: ['#3C5A99', '#4BBFC3', '#7BAABE', '#ccddff']
+  sectionsColor: ['blue', '#CCCDD3', 'blue', '#CCCDD3']
 });
