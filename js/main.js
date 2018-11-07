@@ -1,5 +1,5 @@
 function sendMessage(img){
-  if(fb_page_access_token  && typeof fb_page_access_token !== 'undefined'){
+  if(typeof fb_page_access_token === 'undefined'){
     alert('You must specify a valid FB Access Token');
     return;
   }
@@ -46,7 +46,7 @@ function getRandomInt(max) {
 
 
 function getGifImage(fn, q){
-  if(api_key  && typeof api_key !== 'undefined'){
+  if(typeof api_key === 'undefined'){
     fn('https://media3.giphy.com/media/IHOOMIiw5v9VS/giphy.gif');
     return;
   }
