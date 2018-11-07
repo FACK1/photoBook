@@ -31,6 +31,7 @@ section{
   justify-content: left;
   padding-top: 100px;
   padding-left: 20px;
+  height: 200px;
 }
 .counters{
   background: #ccc;
@@ -50,5 +51,6 @@ section{
   border-radius: 10px ;
 }
 #next-btn{
-  border-radius: 10px ;
+  border-radius: 10px solid ;
+  flex:auto;
 }
