@@ -1,4 +1,4 @@
-# photoBook
+# FotoBook
 
 # About:
  The team created this website to generate random images, and allows the  users to choose any image then sharing it in their profiles at facebook account.
@@ -6,7 +6,7 @@
   # Description:
    Our website is designed using several languages such as HTML, CSS and Javascript.
    
-   **The Link of website**: [PhotoBook](https://fack1.github.io/photoBook/)
+   **The Link of website**: [FotoBook](https://fack1.github.io/photoBook/)
 
   
  
