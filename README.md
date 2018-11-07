@@ -1,10 +1,20 @@
 # photoBook
 
 ### About
-  The project is a website to generate random images, and allows the  users to choose any image then sharing it in their profiles at facebook account.
+ The team created this website to generate random images, and allows the  users to choose any image then sharing it in their profiles at facebook account.
   
-  
-  **The Link of website**: [PhotoBook](https://fack1.github.io/photoBook/)
+  # Description:
+   1.  Our website is designed using several languages such as HTML, CSS and Javascript. 
+
+ **The Link of website**: [PhotoBook](https://fack1.github.io/photoBook/)
+
+ 2. Our website is so easy that you can:
+ -  Visit our website and see the address about our team.
+  -  Contact us by filling out a form and sending it by providing name, email and message information so that we have sufficient   information to contact the customer afterwards.
+ - Quickly move to the location areas you want to visit.
+ - Quickly navigate around the site without having to wait until new pages are loaded.
+ - Easily view your location when browsing on my mobile device, tablet, or desktop
+ 
 
 ### User Journy
 As a user I will open the `photoBook` website. This website has main page that it has 5 sections:
