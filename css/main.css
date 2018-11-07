@@ -25,10 +25,12 @@ section{
   background-color: #DFE2EF;
 }
 #section-select-photo{
-  text-align: center;
+  text-align: left;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
+  padding-top: 100px;
+  padding-left: 20px;
 }
 .counters{
   background: #ccc;
@@ -38,9 +40,15 @@ section{
   padding-top: 88px;
   background-repeat: no-repeat;
 }
-#parag{
-  font-size: 18px;
+.parag{
+  font-size: 20px;
   font-family: serif;
   color: white;
-
+  text-align: justify;
+  background-color: rgba(50,50,50, 0.5);
+  width:500px;
+  border-radius: 10px ;
+}
+#next-btn{
+  border-radius: 10px ;
 }
