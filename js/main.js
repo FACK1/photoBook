@@ -1,4 +1,8 @@
 function sendMessage(img){
+  if(!fb_page_access_token){
+    alert('You must specify a valid FB Access Token');
+    return;
+  }
   fetch(`https://graph.facebook.com/v2.6/me/messages?access_token=${fb_page_access_token}`, {
     method: 'post',
     headers: {
@@ -42,6 +46,10 @@ function getRandomInt(max) {
 
 
 function getGifImage(fn, q){
+  if(!api_key){
+    fn('https://media3.giphy.com/media/IHOOMIiw5v9VS/giphy.gif');
+    return;
+  }
   var apiGif = `https://api.giphy.com/v1/gifs/search?api_key=${api_key}&q=${q}`;
   fetch(apiGif)
   .then(function(res){
