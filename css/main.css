@@ -52,3 +52,13 @@ section{
 #next-btn{
   border-radius: 10px ;
 }
+.thank-you{
+font-size: 200px;
+margin: 0;
+color: blue;
+font-style: italic;
+
+
+text-align: center;
+padding-top:200px;
+}
