@@ -1,146 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<title>FotoBook</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/fullpage.css">
-	<link rel="stylesheet" href="css/main.css">
-</head>
-<body>
-
-
-	<div id="logo">
-
-
-		<img src="img/logo.png" width="50px" height="50px" alt="hi">
-
-
-			<span style="font-size:30px; color: white;">otoBook</span>
-	</div>
-
-	<div id="main" class="container">
-
-		<!-- Start Main Section -->
-
-		<section class="section" id="section-main">
-			<div class="container-flex">
-				<div class="col">
-					<h1 class="H1">Select any photo , post it, or send it to friends.</h1>
-					<p lang="fr" class="parag">
-					also write a description of the photo that was shared.<br>
-
-					Our website contains three parts in the first part<br> the photo change randomly every 5 seconds. <br>
-					The second part the photo in this part change <br> through the user click button change then,<br> the user choose
-					photo and the click to button next ,<br>to take the photo to the next part. <br>
-					The third part contains photo you choice its,  <br>in the previous part and in this part you<br> can put
-					description to your photo.
-
-				</p>
-				</div>
-				<div class="col">
-					<div class="fb-post">
-
-						<img id="img-facebook-photo" alt="hi" title="ramdom image"/>
-
-
-
-						<div class="counters">
-							<span id="number-of-likes">0</span> Likes
-							<span id="number-of-comments">0</span> Comments
-							<span id="number-of-shares">0</span> Shares
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Main Section -->
-
-		<!-- Start Select photo Section -->
-		<section class="section" id="section-select-photo">
-			<div class="container-flex">
-				<div >
-
-					<img id="img-selection" alt="hi" title="rando image"/>
-
-
-
-				</div>
-				<div class="text-center">
-					<div>
-						<button id="btn-change-photo">Change photo</button>
-					</div>
-					<div>
-						<button id="btn-send-to-friend">Send it to friends</button>
-						<div>
-							<button id="btn-share">Or share it</button>
-						</div>
-						<p lang="fr" class="parag2">
-
-							Through this section user can change the images
-							through the first button and see a large number of
-							images and send to a friend you want to share the
-							picture with him through the second button we wish
-							you a pleasant viewing of images and to admire you Dear user.
-
-					</p>
-					</div>
-				</div>
-				<div>
-				</div>
-			</div>
-		</section>
-		<!-- End Select photo Section -->
-		<!-- Start Add text Section -->
-		<section class="section" id="section-select-gif">
-			<div class="container-flex">
-				<div >
-					<label for="txt-photo-gif">	<p lang="fr" class="parag">
-						Dear user, through the search button, you can search
-						for images of what is going on with you by writing it
-						in the search box and printing the participation of that
-						image also these images willbe animated pictures,
-						 hope you will like our dear subscribers
-					</p</label>
-
-
-				</div>
-				<div class="text-center">
-					<div>
-					<img id="img-selection-gif" alt="hi"/>
-
-				</div>
-				<label for="txt-photo-gif">search</label>
-					<input type="text" id="txt-photo-gif" placeholder="Enter query here"
-					 value="Cat"  name="gif"/>
-
-				<div class="text-center">
-
-					<div>
-						<button id="btn-change-photo-gif">Change photo</button>
-					</div>
-					<div>
-						<button id="btn-send-to-friend-gif">Send it to friends</button>
-					</div>
-					<div>
-						<button id="btn-share-gif">Or share it</button>
-					</div>
-				</div>
-				<div>
-				</div>
-			</div>
-		</section>
-		<!-- End Add text Section -->
-		<!-- Start Add text Section -->
-		<section class="section" id="add-text" >
-			<p lang="fr" class="thank-you"> Thank You </p>
-		</section>
-		<!-- End Add text Section -->
-		<!-- Start Photo uploaded Section -->
-
-		<!-- End Photo uploaded Section -->
-	</div>
-	<script src="js/fullpage.js"></script>
-	<script src="js/api-key.js"></script>
-	<script src="js/main.js"></script>
-</body>
+   <head>
+      <title>FotoBook</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="css/fullpage.css">
+      <link rel="stylesheet" href="css/main.css">
+   </head>
+   <body>
+      <div id="logo">
+         <img src="img/logo.png" width="50px" height="50px" alt="hi">
+         <span style="font-size:30px; color: white;">otoBook</span>
+      </div>
+      <div id="main" class="container">
+      <!-- Start Main Section -->
+      <section class="section" id="section-main">
+         <div class="container-flex">
+            <div class="col">
+               <h1 class="H1">Select any photo , post it, or send it to friends.</h1>
+               <p lang="fr" class="parag">
+                  also write a description of the photo that was shared.<br>
+                  Our website contains three parts in the first part<br> the photo change randomly every 5 seconds. <br>
+                  The second part the photo in this part change <br> through the user click button change then,<br> the user choose
+                  photo and the click to button next ,<br>to take the photo to the next part. <br>
+                  The third part contains photo you choice its,  <br>in the previous part and in this part you<br> can put
+                  description to your photo.
+               </p>
+            </div>
+            <div class="col">
+               <div class="fb-post">
+                  <img id="img-facebook-photo" alt="hi" title="ramdom image"/>
+                  <div class="counters">
+                     <span id="number-of-likes">0</span> Likes
+                     <span id="number-of-comments">0</span> Comments
+                     <span id="number-of-shares">0</span> Shares
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- End Main Section -->
+      <!-- Start Select photo Section -->
+      <section class="section" id="section-select-photo">
+         <div class="container-flex">
+            <div >
+               <img id="img-selection" alt="hi" title="rando image"/>
+            </div>
+            <div class="text-center">
+               <div>
+                  <button id="btn-change-photo">Change photo</button>
+               </div>
+               <div>
+                  <button id="btn-send-to-friend">Send it to friends</button>
+                  <div>
+                     <button id="btn-share">Or share it</button>
+                  </div>
+                  <p lang="fr" class="parag2">
+                     Through this section user can change the images
+                     through the first button and see a large number of
+                     images and send to a friend you want to share the
+                     picture with him through the second button we wish
+                     you a pleasant viewing of images and to admire you Dear user.
+                  </p>
+               </div>
+            </div>
+            <div>
+            </div>
+         </div>
+      </section>
+      <!-- End Select photo Section -->
+      <!-- Start Add text Section -->
+      <section class="section" id="section-select-gif">
+         <div class="container-flex">
+            <div >
+               <label for="txt-photo-gif">
+                  <p lang="fr" class="parag">
+                     Dear user, through the search button, you can search
+                     for images of what is going on with you by writing it
+                     in the search box and printing the participation of that
+                     image also these images willbe animated pictures,
+                     hope you will like our dear subscribers
+                     </p
+               </label>
+            </div>
+            <div class="text-center">
+               <div>
+                  <img id="img-selection-gif" alt="hi"/>
+               </div>
+               <label for="txt-photo-gif">search</label>
+               <input type="text" id="txt-photo-gif" placeholder="What do you want to search for?"
+                  value="Cat"  name="gif"/>
+               <div class="text-center">
+                  <div>
+                     <button id="btn-change-photo-gif">Change photo</button>
+                  </div>
+                  <div>
+                     <button id="btn-send-to-friend-gif">Send it to friends</button>
+                  </div>
+                  <div>
+                     <button id="btn-share-gif">Or share it</button>
+                  </div>
+               </div>
+               <div>
+               </div>
+            </div>
+      </section>
+      <!-- End Add text Section -->
+      <!-- Start Add text Section -->
+      <section class="section" id="add-text" >
+      <p lang="fr" class="thank-you"> Thank You </p>
+      </section>
+      <!-- End Add text Section -->
+      <!-- Start Photo uploaded Section -->
+      <!-- End Photo uploaded Section -->
+      </div>
+      <script src="js/fullpage.js"></script>
+      <script src="js/api-key.js"></script>
+      <script src="js/main.js"></script>
+   </body>
 </html>
