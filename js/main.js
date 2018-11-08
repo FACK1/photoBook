@@ -86,6 +86,19 @@ document.getElementById('btn-send-to-friend').addEventListener('click', function
   sendMessage(img);
 });
 
+document.getElementById('btn-share').addEventListener('click', function() {
+  let img = document.getElementById('img-selection').src;
+  img = encodeURIComponent(img);
+  let url = `https://www.facebook.com/sharer/sharer.php?u=${img}&app_id=113869198637480`;
+  window.open(url,'Facebook Share','height=600,width=1000');
+});
+document.getElementById('btn-share-gif').addEventListener('click', function() {
+  let img = document.getElementById('img-selection-gif').src;
+  img = encodeURIComponent(img);
+  let url = `https://www.facebook.com/sharer/sharer.php?u=${img}&app_id=113869198637480`;
+  window.open(url,'Facebook Share','height=600,width=1000');
+});
+
 setRandomImage(document.getElementById('img-facebook-photo'), 400, 350);
 setInterval(function(){
   setRandomImage(document.getElementById('img-facebook-photo'), 400, 350);
