@@ -11,12 +11,12 @@
   
 
   # User Journy
-   As a user I will open the `photoBook` website. This website has main page that it has 5 sections:
+   As a user I will open the `photoBook` website. This website has main page that it has 4 sections:
  1. Main section:it has logo for website and photo change outmaticly.
  2. Change photo section: it has photo change by user .
  3. Share photo section:it has share photo to your acount in facebook.
  4. Gif section:share gif to your acount in facebook.
- 5. Final section:it has thank you .
+ 
  # API:
  1.  we used  [picsum API](https://picsum.photos/) to change photo randomly every 5 seconds.
  2. we used [picsum API](https://picsum.photos/) to change photo randomly when the user click to button change . 
